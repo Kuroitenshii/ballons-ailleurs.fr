@@ -1,0 +1,95 @@
+img {
+    max-height: 800px;
+}
+
+.navbar-item.is-tab,
+.navbar-link {
+    background-color: #363636;
+    color: white;
+}
+
+.navbar-item.is-tab.is-active,
+.navbar-item.is-tab:hover,
+.navbar-item.is-tab:focus,
+.navbar-dropdown a.navbar-item.is-tab:hover,
+.navbar-dropdown a.navbar-item.is-tab:hover,
+.navbar.is-dark .navbar-dropdown a.navbar-item.is-active {
+    background-color: #292929;
+    color: #3273dc;
+}
+
+.navbar-link:hover,
+.navbar-link:focus{
+    background-color: #363636;
+    color: white;
+}
+
+.navbar-menu,
+.navbar-dropdown {
+    padding: 0;
+}
+
+.not-started{
+    background-color: red !important;
+}
+
+.pending{
+    background-color: orange !important;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
+.blue-text{
+    color: #3273dc;
+}
+
+.bordered{
+    border: 2px solid black;
+}
+
+.flex-full{
+    flex-basis: 100%;
+}
+
+.flex-quarter{
+    flex-basis: 25%;
+}
+.flex-half{
+    flex-basis: 50%;
+}
+.flex-three-quarter{
+    flex-basis: 75%;
+}
+.flex-quarter-and-half{
+    flex-basis: calc(75% / 2);
+}
+.flex-two-of-five{
+    flex-basis: 40%;
+}
+.flex-three-of-five{
+    flex-basis: 60%;
+}
+.flex-one-of-five{
+    flex-basis: 20%;
+}
+.full-height{
+    height: 100%;
+}
+.big-text{
+    font-size: 1.5rem;
+}
+
+.is-logo{
+    height: 200px;
+    width: 200px;
+}
+
+.w400px{
+    width: 400px;
+}

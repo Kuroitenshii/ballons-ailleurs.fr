@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Association Montgolfières d'Occitanie & d'Ailleurs</title>
+    <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar is-dark">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../index.html">
+                Ballons-ailleurs
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end is-tab">
+                <a class="navbar-item is-tab" href="../index.html">
+                    Accueil
+                </a>
+                <div class="navbar-item has-dropdown">
+                    <a class="navbar-link" href="#">
+                        Association
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item is-tab" href="./asssociations_Haute-Garrone.html">
+                            Haute-Garonne
+                        </a>
+                        <a class="navbar-item is-tab " href="./asssociations_Sud_Aveyron.html">
+                            Sud-Aveyron
+                        </a>
+                    </div>
+                </div>
+                <a class="navbar-item is-tab" href="./montgolfiade.html">
+                    Montgolfiades 2023
+                </a>
+                <a class="navbar-item is-tab" href="./decouverte.html">
+                    Vol découverte
+                </a>
+                <a class="navbar-item is-tab is-active" href="./galerie.html">
+                    Galerie
+                </a>
+                <a class="navbar-item is-tab" href="./partenaire_&_liens.html">
+                    Partenaires & Liens
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-small">
+        <div class="hero-body has-text-centered">
+            <h1 class="title is-3">
+                Galerie
+            </h1>
+            <p>
+                Cliquez sur une images pour l'agrandir
+            </p>
+        </div>
+    </section>
+
+    <section class="section container">
+        <div id="modal1" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <p class="image">
+                    <img id="modal-img" src="" alt="">
+                </p>
+            </div>
+            <button class="modal-close is-large" aria-label="close">
+            </button>
+        </div>
+        <div class="columns is-multiline" id="gallery">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    Developed by Dev.exe
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/gallerie.js"></script>
+</body>
+
+</html>
